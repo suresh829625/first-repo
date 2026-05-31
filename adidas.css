@@ -1,0 +1,60 @@
+.main {
+  display: flex;
+}
+.scroller {
+  overflow-x: scroll;
+}
+.scroller::-webkit-scrollbar {
+  display: none;
+}
+.card1 {
+  margin: 40px;
+  width: 150px;
+}
+.card2 {
+  margin: 40px;
+  max-width: 600px;
+}
+.card3 {
+  margin: 40px;
+  max-width: 600px;
+}
+.card4 {
+  margin: 40px;
+  max-width: 600px;
+}
+.card5 {
+  margin: 40px;
+  max-width: 600px;
+}
+.card6 {
+  margin: 40px;
+  max-width: 600px;
+}
+.card7 {
+  margin: 40px;
+  max-width: 600px;
+}
+.card8 {
+  margin: 40px;
+  max-width: 600px;
+}
+.card9 {
+  margin: 40px;
+  max-width: 600px;
+}
+.card10 {
+  margin: 40px;
+  max-width: 600px;
+}
+.card11 {
+  margin: 40px;
+  max-width: 600px;
+}
+.card12 {
+  margin: 40px;
+  max-width: 600px;
+}
+.section {
+  display: flex;
+}

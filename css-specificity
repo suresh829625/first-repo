@@ -1,0 +1,13 @@
+<html>
+  <head>
+    <title>CSS-Specificity</title>
+  </head>
+  <body>
+    <p id="para" class="new" style="color: blue">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+      laudantium animi aperiam tenetur, excepturi sapiente perspiciatis
+      temporibus commodi nam, ducimus provident beatae id molestiae quaerat
+      ipsum, ipsam obcaecati dolorem illum.
+    </p>
+  </body>
+</html>

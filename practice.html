@@ -1,0 +1,171 @@
+<html>
+  <head>
+    <title>HTML Practice</title>
+    <style>
+      .title {
+        color: blue;
+      }
+      .head {
+        background-color: green;
+      }
+      .container {
+        color: red;
+      }
+      .card {
+        color: aqua;
+      }
+      .block {
+        background-color: pink;
+      }
+      .inline {
+        background-color: palegreen;
+      }
+    </style>
+    <link rel="icon" href="link.svg" />
+  </head>
+  <body>
+    <h1>html headings example</h1>
+    <a
+      href="https://www.google.com/search?q=today+ipl+match&oq=&gs_lcrp=EgZjaHJvbWUqCQgCECMYJxjqAjIJCAAQIxgnGOoCMgkIARAjGCcY6gIyCQgCECMYJxjqAjIJCAMQIxgnGOoCMgkIBBAjGCcY6gIyCQgFECMYJxjqAjIJCAYQIxgnGOoCMgkIBxAjGCcY6gLSAQk1NzQ1ajBqMTWoAgiwAgHxBeDhWs3jO7mE&sourceid=chrome&ie=UTF-8"
+      target="self"
+      >this is an anchor tag</a
+    >
+    <img
+      src="https://images.pexels.com/photos/11291694/pexels-photo-11291694.jpeg?cs=srgb&amp;dl=pexels-danmds-11291694.jpg&amp;fm=jpg"
+      alt="sample image"
+      height="500"
+      width="500"
+    />
+
+    <p>
+      <b>Lorem ipsum dolor sit amet consectetur adipisicing elit.</b>
+      <i> Ratione veniam magnam molestias nam error nemo animi voluptatum,</i>
+      <strong
+        >similique repellendus accusamus dignissimos accusantium nostrum
+        repellat enim? Corrupti minus reprehenderit fugit harum.</strong
+      >
+      <em> Lorem ipsum dolor sit amet consectetur adipisicing elit.</em
+      ><insert><u>Surya</u></insert>
+      <mark
+        >Laborum itaque modi deleniti corporis eaque architecto enim sit</mark
+      >
+      <del>harum labore</del><sup> provident impedit debitis a eum ipsa</sup
+      ><sub> quod assumenda vel non dicta.</sub>
+    </p>
+
+    <h2>ordered list</h2>
+    <ol>
+      <li>one</li>
+      <li>two</li>
+      <li>three</li>
+    </ol>
+
+    <h2>unordered list</h2>
+    <ul>
+      <li>tea</li>
+      <li>coffee</li>
+      <li>milk</li>
+    </ul>
+
+    <h2>inline css</h2>
+    <h1 style="color: blue">this is inline css</h1>
+    <p style="color: red; background-color: green">
+      this paragraph refers to inline css
+    </p>
+    <h1 class="title">this is class selector example</h1>
+    <p class="head">this is also class selector</p>
+
+    <h1>normal div</h1>
+
+    <div class="container">
+      <p>this is normal container</p>
+    </div>
+
+    <h1>grouped div</h1>
+
+    <div class="card">
+      <h3>product name</h3>
+      <p>product price : 2000</p>
+    </div>
+
+    <div>
+      <h1>block</h1>
+
+      <div class="block">apple</div>
+      <div class="block">banana</div>
+      <div class="block">cat</div>
+
+      <h1>inline</h1>
+
+      <p>
+        <span class="inline">inline 1</span>
+        <span class="inline">inline 2</span>
+        <span class="inline">inline 3</span>
+      </p>
+    </div>
+
+    <iframe
+      width="500"
+      height="500"
+      src="https://www.google.com/search?q=today+ipl+match&oq=&gs_lcrp=EgZjaHJvbWUqCQgCECMYJxjqAjIJCAAQIxgnGOoCMgkIARAjGCcY6gIyCQgCECMYJxjqAjIJCAMQIxgnGOoCMgkIBBAjGCcY6gIyCQgFECMYJxjqAjIJCAYQIxgnGOoCMgkIBxAjGCcY6gLSAQk1NzQ1ajBqMTWoAgiwAgHxBeDhWs3jO7mE&sourceid=chrome&ie=UTF-8"
+    >
+    </iframe>
+    <iframe
+      width="400"
+      height="400"
+      src="../Frontend1/WhatsApp Video .mp4"
+    ></iframe>
+
+    <table>
+      <tr>
+        <th>name</th>
+        <th>age</th>
+        <th>city</th>
+      </tr>
+      <tr>
+        <td>surya</td>
+        <td>22</td>
+        <td>bangalore</td>
+      </tr>
+      <tr>
+        <td>kumar</td>
+        <td>29</td>
+        <td>kenchanpalya</td>
+      </tr>
+      <tr>
+        <td>chandra</td>
+        <td>20</td>
+        <td>banglore</td>
+      </tr>
+      <tr>
+        <td>harish</td>
+        <td>24</td>
+        <td>laggere</td>
+      </tr>
+    </table>
+
+    <form action="/sample.php">
+      <label for="un">user name</label>
+      <input type="text" id="un" name="" value="" /><br />
+
+      <label for="password">password</label>
+      <input type="password" id="pw" name="pw" value="" /><br />
+
+      <label for="phone">phone number</label>
+      <input type="number" id="phone" name="phone" value="" /><br />
+
+      <input type="radio" id="male" name="gender" value="male" />
+      <label for="male">male</label><br />
+
+      <input type="radio" id="female" name="gender" value="female" />
+      <label for="female">female</label><br />
+
+      <input type="checkbox" id="male" name="one" value="" />
+      <label for="male">male</label><br />
+      <input type="checkbox" id="female" name="one" value="" />
+      <label for="female">female</label><br />
+
+      <input type="submit" value="SUBMIT" />
+    </form>
+  </body>
+</html>

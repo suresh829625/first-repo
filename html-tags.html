@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Hi This is a Web Page on HTML Learnings"
+    />
+    <meta name="author" content="Vennila" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta http-equiv="refresh" content="5" />
+    <title>HTML INTRODUCTION</title>
+  </head>
+  <body>
+    <!-- H1 tag below -->
+    <h1>Welcome to HTML Learnings</h1>
+    <!-- paragraph tag below -->
+    <p>This is my Second Class of HTML in Besant Technologies</p>
+    <!-- table tag below -->
+    <table border="2">
+      <!-- table row tag below -->
+      <tr>
+        <!-- table header tag Starts here-->
+        <th>ID</th>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Address</th>
+        <th>Contact Mail</th>
+        <!-- table header tag ends here-->
+      </tr>
+      <tr>
+        <!-- table data tag starts here -->
+        <td>1</td>
+        <td>Vennila</td>
+        <td>23</td>
+        <td>Banglore</td>
+        <td>vennilaa17@gmail.com</td>
+        <!-- table data tag ends here -->
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Vennila</td>
+        <td>23</td>
+        <td>Banglore</td>
+        <td>vennilaa17@gmail.com</td>
+      </tr>
+    </table>
+    <!-- hr is used to create a horizontal line -->
+    <hr />
+    <!-- marquee tag gives the Sliding text from the four direction -->
+    <marquee direction="Left">Hi This is Sliding Text</marquee>
+    <!-- paragraph, bold and mark tag below -->
+    <p>
+      <b>Lorem ipsum </b>dolor sit amet <mark>consectetur</mark> adipisicing
+      elit.<i>Autem, consequuntur?</i>
+    </p>
+    <!-- Underline tag below -->
+    <p><u>Lorem ipsum dolor sit amet.</u></p>
+    <hr />
+    <!-- <sub> tag is used to create a subscript and it makes the text appear below the normal line
+<sup> tag is used to create a superscript and it makes the text appear above the normal line -->
+    <p>12 <sup>th</sup> January 2024</p>
+    <p>C <sub>6</sub> H <sub>12</sub> O <sub>6</sub></p>
+    <p>H <sub>2</sub> O</p>
+    <p>H <sup>2</sup></p>
+    <hr />
+    <!-- <a> tag is used to create a anchor, href tag is used for creating relative and absolute references -->
+    <p>
+      Click here to View <a href="demo.html" target="_blank">HTML tutorial</a>
+    </p>
+    <p>
+      Click to know more about
+      <a href="https://en.wikipedia.org/wiki/HTML" target="_blank">HTML</a>
+    </p>
+    <hr />
+    <!-- In table tag, if we give border it will create the border for the table -->
+    <table border="2">
+      <tr>
+        <!-- In table header tag, if we want multiple column headers, we can use rowspan and column span -->
+        <th rowspan="2">ID</th>
+        <th colspan="3">Name</th>
+        <th rowspan="2">Age</th>
+      </tr>
+      <tr>
+        <th>First Name</th>
+        <th>Middle Name</th>
+        <th>Last Name</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>A</td>
+        <td>Vennila</td>
+        <td>Rajan</td>
+        <td>23</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>B</td>
+        <td>Raji</td>
+        <td>Raj</td>
+        <td>22</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>C</td>
+        <td>Rajiv</td>
+        <td>Rajis</td>
+        <td>25</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>D</td>
+        <td>Anu</td>
+        <td>Anusha</td>
+        <td>29</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>E</td>
+        <td>sindhu</td>
+        <td>Sindhuja</td>
+        <td>31</td>
+      </tr>
+    </table>
+    <hr />
+    <h1>Form Elements</h1>
+    <!-- form tag below and it is used to create a form -->
+    <form>
+      <!-- div tag below, it is a container and also called divider -->
+      <div>
+        <!-- label tag below, it is used to create label for form -->
+        <label>Username</label>
+        <!-- input tag below, if it is text,it will create textbox for the user -->
+        <input type="text" />
+      </div>
+      <br />
+      <div>
+        <label>Password</label>
+        <input type="password" />
+      </div>
+      <br />
+      <div>
+        <label>Gender</label>
+        <!-- input type = radio is used to create radio buttons -->
+        <input type="radio" name="Gender" value="male" /> M
+        <input type="radio" name="Gender" value="female" /> F
+        <input type="radio" name="Gender" value="Others" /> O
+      </div>
+      <br />
+      <div>
+        <label>Qualification</label>
+        <!-- input type = checkbox is used to let a user choose more options -->
+        <input type="checkbox" value="SSLC" />SSLC
+        <input type="checkbox" value="PUC" />PUC
+        <input type="checkbox" value="UG" />UG
+        <input type="checkbox" value="PG" />PG
+      </div>
+      <br />
+      <div>
+        <label>DOB</label>
+        <!-- input type = date is used to create a calender -->
+        <input type="date" />
+      </div>
+      <br />
+      <div>
+        <label>Sun-rise Time</label>
+        <!-- input type = time is used to choosing the time-->
+        <input type="time" />
+      </div>
+      <br />
+      <div>
+        <label>Email Address</label>
+        <!-- input type = email is used to create a email-->
+        <input type="email" />
+      </div>
+      <br />
+      <div>
+        <label>Select the State</label>
+        <!-- select tag below and it is used to create a drop-down list -->
+        <select>
+          <!-- option tag below and it is used to select the options -->
+          <option>Select Your State</option>
+          <option>Karnataka</option>
+          <option>TamilNadu</option>
+          <option>Maharashtra</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        <label>District</label>
+        <select>
+          <option>Select Your District</option>
+          <option>Banglore</option>
+          <option>Virudhunagar</option>
+          <option>Thirunelveli</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        <label>Select Color</label>
+        <!-- input type = color and it is used to select the color -->
+        <input type="color" />
+      </div>
+      <br />
+      <div>
+        <!-- input type = time and it is used to select the time -->
+        <label>Select Time</label>
+        <input type="time" />
+      </div>
+      <br />
+      <div>
+        <!-- input type = datetime and it is used to select the date along with time -->
+        <label>Select time and date</label>
+        <input type="datetime-local" />
+      </div>
+      <br />
+      <div>
+        <label>Select Range</label>
+        <!-- input type= range, it is used to create contol for entering a number -->
+        <input type="range" min="1" max="2" />
+      </div>
+      <br />
+      <div>
+        <label>Permanent Address</label>
+        <!-- textarea tag below and it is used to create a space for multiline input text -->
+        <textarea rows="5" cols="10"></textarea>
+      </div>
+      <br />
+      <div>
+        <!-- button tag below and it is used to create a clickable buttons -->
+        <button>Submit</button>
+        <button>Reset</button>
+      </div>
+    </form>
+    <hr />
+    <h1>Iframe</h1>
+    <!-- iframe tag below and it is used to link a html document or web page  -->
+    <iframe src="Form.html" height="250" width="300"></iframe>
+    <iframe
+      src="https://en.wikipedia.org/wiki/HTML"
+      height="250"
+      width="300"
+    ></iframe>
+    <!-- <fieldset> tag groups related elements in a form, making it easier for users to understand the form's structure. 
+    It draws a box around the grouped elements. -->
+    <fieldset>
+      <hr />
+      <legend>HTML logo</legend>
+      <!-- img tag below and it is used to link a image -->
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6935wo8bLZh5FeafJEffqWKDOpNpx6UE5bg&s"
+        alt="HTML logo"
+        height="150"
+        width="150"
+      />
+    </fieldset>
+    <hr />
+    <fieldset>
+      <!-- legend tag below and it is used to create a little caption -->
+      <legend>Introduction</legend>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus ipsa
+        quibusdam, possimus numquam est voluptates?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus ipsa
+        quibusdam, possimus numquam est voluptates?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus ipsa
+        quibusdam, possimus numquam est voluptates?
+      </p>
+    </fieldset>
+    <hr />
+    <fieldset>
+      <legend>Icons</legend>
+      <!-- class tag below and it is used to provide class name for the elements -->
+      <i class="fa fa-home"></i>
+      <i class="fa fa-trash"></i>
+      <i class="fa fa-edit"></i>
+      <i class="fa fa-user"></i>
+      <i class="fa fa-address-book"></i>
+      <i class="fa-solid fa-location-dot"></i>
+    </fieldset>
+    <hr />
+    <fieldset>
+      <legend>Location</legend>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62948.03365289209!2d77.91699047696375!3d9.573523608614776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b012c93bcb2b013%3A0xd717404a42ed026e!2sVirudhunagar%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1735310864171!5m2!1sen!2sin"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.802442422231!2d77.55189857454684!3d12.984484114596723!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3df3a3659f55%3A0x3a19aab39850fbf8!2sBesant%20Technologies%20Rajajinagar!5e0!3m2!1sen!2sin!4v1735310780828!5m2!1sen!2sin"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </fieldset>
+    <hr />
+    <h1>Ordered List</h1>
+    <!-- ol tag below and it is used to create a Ordered list -->
+    <ol>
+      <!-- abbr tag below and it is used to create a abbreviation -->
+      <li><abbr title="Hyper Text markup Language"> HTML </abbr></li>
+      <li><abbr title="Cascading style Sheets"> CSS </abbr></li>
+      <li><abbr title="JavaScript"> JS </abbr></li>
+    </ol>
+    <hr />
+    <h1>Un-Ordered List</h1>
+    <!-- ul tag below and it is used to create a UnOrdered list -->
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JS</li>
+    </ul>
+    <br />
+    <hr />
+    <!-- multimedia tags below (audio and video tags) and it is used to link the path of the audio and video -->
+    <audio src=" " height="250" width="350" controls autoplay muted></audio>
+    <video src=" " height="250" width="350" controls autoplay muted></video>
+  </body>
+</html>

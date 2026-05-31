@@ -1,0 +1,576 @@
+<html>
+  <head>
+    <title>card-practice</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <style>
+      .main {
+        display: flex;
+      }
+      .scroller {
+        overflow-x: scroll;
+      }
+      .scroller::-webkit-scrollbar {
+        display: none;
+      }
+      .card1 {
+        margin: 40px;
+        max-width: 650px;
+      }
+      .card2 {
+        margin: 40px;
+        max-width: 600px;
+      }
+      .card3 {
+        margin: 40px;
+        max-width: 600px;
+      }
+      .card4 {
+        margin: 40px;
+        max-width: 600px;
+      }
+      .card5 {
+        margin: 40px;
+        max-width: 600px;
+      }
+      .card6 {
+        margin: 40px;
+        max-width: 600px;
+      }
+      .card7 {
+        margin: 40px;
+        max-width: 600px;
+      }
+      .card8 {
+        margin: 40px;
+        max-width: 600px;
+      }
+      .card9 {
+        margin: 40px;
+        max-width: 600px;
+      }
+      .card10 {
+        margin: 40px;
+        max-width: 600px;
+      }
+      .card11 {
+        margin: 40px;
+        max-width: 600px;
+      }
+      .card12 {
+        margin: 40px;
+        max-width: 600px;
+      }
+    </style>
+  </head>
+  <body>
+    <!--nav start-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#offcanvasexample"
+          ><img
+            class="logo"
+            src="https://thumbs.dreamstime.com/b/adidas-sport-clothing-brand-logo-editorial-image-vinnitsia-ukraine-june-222082589.jpg"
+            jsaction=""
+            class="sFlh5c FyHeAf iPVvYb"
+            style="max-width: 800px; height: 100px; margin: 0px; width: 100px"
+            alt="Adidas Logo Stock Illustrations – 587 Adidas Logo Stock ..."
+            jsname="kn3ccd"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <form class="d-flex search-bar" role="search">
+            <input
+              class="form-control me-2 text-box"
+              type="search"
+              placeholder="search"
+              aria-label="search"
+            />
+            <button class="btn btn-outline=success" type="submit">
+              Search
+            </button>
+          </form>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 list-data">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">SHOES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Men</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">WOMEN</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--nav end-->
+
+    <!-- Button modal start-->
+    <button
+      type="button"
+      class="btn btn-primary"
+      data-bs-toggle="modal"
+      data-bs-target="#staticBackdrop"
+    >
+      Search for your city
+    </button>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="staticBackdrop"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="staticBackdropLabel">
+              Detect my location
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div style="display: flex">
+              <div>
+                <img
+                  alt="Bengaluru"
+                  width=""
+                  height=""
+                  fetchpriority="auto"
+                  class="sc-eykeme-1 fOkWRi"
+                  style="
+                    border-radius: 0px;
+                    object-fit: inherit;
+                    height: 100%;
+                    max-width: 100%;
+                    opacity: 1;
+                  "
+                  src="https://assets-in.bmscdn.com/m6/images/common-modules/regions/bang.png"
+                />
+                <h6>Banglore</h6>
+              </div>
+
+              <div>
+                <img
+                  alt="Mumbai"
+                  width=""
+                  height=""
+                  fetchpriority="auto"
+                  class="sc-eykeme-1 fOkWRi"
+                  style="
+                    border-radius: 0px;
+                    object-fit: inherit;
+                    height: 100%;
+                    max-width: 100%;
+                    opacity: 1;
+                  "
+                  src="https://assets-in.bmscdn.com/m6/images/common-modules/regions/mumbai.png"
+                />
+                <h6>Mumbai</h6>
+              </div>
+
+              <div>
+                <img
+                  alt="Hyderabad"
+                  width=""
+                  height=""
+                  fetchpriority="auto"
+                  class="sc-eykeme-1 fOkWRi"
+                  style="
+                    border-radius: 0px;
+                    object-fit: inherit;
+                    height: 100%;
+                    max-width: 100%;
+                    opacity: 1;
+                  "
+                  src="https://assets-in.bmscdn.com/m6/images/common-modules/regions/hyd.png"
+                />
+                <h6>Hydrabhad</h6>
+              </div>
+
+              <div>
+                <img
+                  alt="Kochi"
+                  width=""
+                  height=""
+                  fetchpriority="auto"
+                  class="sc-eykeme-1 fOkWRi"
+                  style="
+                    border-radius: 0px;
+                    object-fit: inherit;
+                    height: 100%;
+                    max-width: 100%;
+                    opacity: 1;
+                  "
+                  src="https://assets-in.bmscdn.com/m6/images/common-modules/regions/koch.png"
+                />
+                <h6>Kochi</h6>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-bs-toggle="modal"
+            >
+              view all cities
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--button modal end-->
+
+    <!--card section start-->
+    <div class="scroller">
+      <div class="main">
+        <div class="card1" style="width: 18rem">
+          <img
+            src="https://5.imimg.com/data5/ANDROID/Default/2024/4/413519469/BO/VL/HE/160274098/product-jpeg.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">ADIDAS ANEAKERS</h5>
+            <p class="card-text">$200.00 ORGINALS</p>
+            <a href="#" class="btn btn-primary">ADD to cart</a>
+            <a href="#" class="btn btn-primary">BOOK NOW</a>
+          </div>
+        </div>
+
+        <div class="card2" style="width: 18rem">
+          <img
+            src="https://5.imimg.com/data5/ANDROID/Default/2024/4/413519469/BO/VL/HE/160274098/product-jpeg.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">ADIDAS ANEAKERS</h5>
+            <p class="card-text">$200.00 ORGINALS</p>
+            <a href="#" class="btn btn-primary">ADD to cart</a>
+            <a href="#" class="btn btn-primary">BOOK NOW</a>
+          </div>
+        </div>
+
+        <div class="card3" style="width: 18rem">
+          <img
+            src="https://5.imimg.com/data5/ANDROID/Default/2024/4/413519469/BO/VL/HE/160274098/product-jpeg.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">ADIDAS ANEAKERS</h5>
+            <p class="card-text">$200.00 ORGINALS</p>
+            <a href="#" class="btn btn-primary">ADD to cart</a>
+            <a href="#" class="btn btn-primary">BOOK NOW</a>
+          </div>
+        </div>
+
+        <div class="card4" style="width: 18rem">
+          <img
+            src="https://5.imimg.com/data5/ANDROID/Default/2024/4/413519469/BO/VL/HE/160274098/product-jpeg.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">ADIDAS ANEAKERS</h5>
+            <p class="card-text">$200.00 ORGINALS</p>
+            <a href="#" class="btn btn-primary">ADD to cart</a>
+            <a href="#" class="btn btn-primary">BOOK NOW</a>
+          </div>
+        </div>
+
+        <div class="card5" style="width: 18rem">
+          <img
+            src="https://5.imimg.com/data5/ANDROID/Default/2024/4/413519469/BO/VL/HE/160274098/product-jpeg.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">ADIDAS ANEAKERS</h5>
+            <p class="card-text">$200.00 ORGINALS</p>
+            <a href="#" class="btn btn-primary">ADD to cart</a>
+            <a href="#" class="btn btn-primary">BOOK NOW</a>
+          </div>
+        </div>
+
+        <div class="card6" style="width: 18rem">
+          <img
+            src="https://5.imimg.com/data5/ANDROID/Default/2024/4/413519469/BO/VL/HE/160274098/product-jpeg.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">ADIDAS ANEAKERS</h5>
+            <p class="card-text">$200.00 ORGINALS</p>
+            <a href="#" class="btn btn-primary">ADD to cart</a>
+            <a href="#" class="btn btn-primary">BOOK NOW</a>
+          </div>
+        </div>
+
+        <div class="card7" style="width: 18rem">
+          <img
+            src="https://5.imimg.com/data5/ANDROID/Default/2024/4/413519469/BO/VL/HE/160274098/product-jpeg.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">ADIDAS ANEAKERS</h5>
+            <p class="card-text">$200.00 ORGINALS</p>
+            <a href="#" class="btn btn-primary">ADD to cart</a>
+            <a href="#" class="btn btn-primary">BOOK NOW</a>
+          </div>
+        </div>
+
+        <div class="card8" style="width: 18rem">
+          <img
+            src="https://5.imimg.com/data5/ANDROID/Default/2024/4/413519469/BO/VL/HE/160274098/product-jpeg.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">ADIDAS ANEAKERS</h5>
+            <p class="card-text">$200.00 ORGINALS</p>
+            <a href="#" class="btn btn-primary">ADD to cart</a>
+            <a href="#" class="btn btn-primary">BOOK NOW</a>
+          </div>
+        </div>
+
+        <div class="card9" style="width: 18rem">
+          <img
+            src="https://5.imimg.com/data5/ANDROID/Default/2024/4/413519469/BO/VL/HE/160274098/product-jpeg.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">ADIDAS ANEAKERS</h5>
+            <p class="card-text">$200.00 ORGINALS</p>
+            <a href="#" class="btn btn-primary">ADD to cart</a>
+            <a href="#" class="btn btn-primary">BOOK NOW</a>
+          </div>
+        </div>
+
+        <div class="card10" style="width: 18rem">
+          <img
+            src="https://5.imimg.com/data5/ANDROID/Default/2024/4/413519469/BO/VL/HE/160274098/product-jpeg.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">ADIDAS ANEAKERS</h5>
+            <p class="card-text">$200.00 ORGINALS</p>
+            <a href="#" class="btn btn-primary">ADD to cart</a>
+            <a href="#" class="btn btn-primary">BOOK NOW</a>
+          </div>
+        </div>
+
+        <div class="card11" style="width: 18rem">
+          <img
+            src="https://5.imimg.com/data5/ANDROID/Default/2024/4/413519469/BO/VL/HE/160274098/product-jpeg.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">ADIDAS ANEAKERS</h5>
+            <p class="card-text">$200.00 ORGINALS</p>
+            <a href="#" class="btn btn-primary">ADD to cart</a>
+            <a href="#" class="btn btn-primary">BOOK NOW</a>
+          </div>
+        </div>
+
+        <div class="card12" style="width: 18rem">
+          <img
+            src="https://5.imimg.com/data5/ANDROID/Default/2024/4/413519469/BO/VL/HE/160274098/product-jpeg.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">ADIDAS ANEAKERS</h5>
+            <p class="card-text">$200.00 ORGINALS</p>
+            <a href="#" class="btn btn-primary">ADD to cart</a>
+            <a href="#" class="btn btn-primary">BOOK NOW</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--card section end -->
+
+    <!--off canvas start-->
+    <div
+      class="offcanvas offcanvas-start show"
+      tabindex="-1"
+      id="offcanvas"
+      aria-labelledby="offcanvasLabel"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasLabel">Offcanvas</h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <!--accordian section start-->
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Accordion Item #1
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>This is the first item’s accordion body.</strong> It is
+                shown by default, until the collapse plugin adds the appropriate
+                classes that we use to style each element. These classes control
+                the overall appearance, as well as the showing and hiding via
+                CSS transitions. You can modify any of this with custom CSS or
+                overriding our default variables. It’s also worth noting that
+                just about any HTML can go within the
+                <code>.accordion-body</code>, though the transition does limit
+                overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                Accordion Item #2
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>This is the second item’s accordion body.</strong> It is
+                hidden by default, until the collapse plugin adds the
+                appropriate classes that we use to style each element. These
+                classes control the overall appearance, as well as the showing
+                and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It’s also worth
+                noting that just about any HTML can go within the
+                <code>.accordion-body</code>, though the transition does limit
+                overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                Accordion Item #3
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>This is the third item’s accordion body.</strong> It is
+                hidden by default, until the collapse plugin adds the
+                appropriate classes that we use to style each element. These
+                classes control the overall appearance, as well as the showing
+                and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It’s also worth
+                noting that just about any HTML can go within the
+                <code>.accordion-body</code>, though the transition does limit
+                overflow.
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--accordian section end-->
+      </div>
+    </div>
+    <!--off canvas end-->
+
+    <!--script tag start-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <!--script tag end-->
+  </body>
+</html>
